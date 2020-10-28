@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{085CDE17-3E76-424F-B042-A7EB00C72263}</ProjectGuid>
+    <RootNamespace>Ld40</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Dwrite.lib;windowscodecs.lib;d2d1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Dwrite.lib;windowscodecs.lib;d2d1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Dwrite.lib;windowscodecs.lib;d2d1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Dwrite.lib;windowscodecs.lib;d2d1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Direction.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="Spell.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apocolypse.h" />
+    <ClInclude Include="Bouncer.h" />
+    <ClInclude Include="BigCircle.h" />
+    <ClInclude Include="Bouncer.h" />
+    <ClInclude Include="BouncingCurve.h" />
+    <ClInclude Include="Arcanist.h" />
+    <ClInclude Include="Assasin.h" />
+    <ClInclude Include="CircleShot.h" />
+    <ClInclude Include="Dagger.h" />
+    <ClInclude Include="DeathlyFlower.h" />
+    <ClInclude Include="Direction.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Fireworks.h" />
+    <ClInclude Include="FireWorks2.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="HailStorm.h" />
+    <ClInclude Include="HolyCross.h" />
+    <ClInclude Include="LavaRain.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="MagmaSpray.h" />
+    <ClInclude Include="PlayerDoubleShot.h" />
+    <ClInclude Include="PlayerTripleShot.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="RandomCurves.h" />
+    <ClInclude Include="RandomRain.h" />
+    <ClInclude Include="RCurves.h" />
+    <ClInclude Include="RNGFucker.h" />
+    <ClInclude Include="SingleShot.h" />
+    <ClInclude Include="Slimer.h" />
+    <ClInclude Include="SlimeShot.h" />
+    <ClInclude Include="Spell.h" />
+    <ClInclude Include="SpikeBall.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="TestBoss.h" />
+    <ClInclude Include="TestEnemy.h" />
+    <ClInclude Include="TestSpell.h" />
+    <ClInclude Include="TestSpellPlayer.h" />
+    <ClInclude Include="TheDestruction.h" />
+    <ClInclude Include="TheDestructor.h" />
+    <ClInclude Include="ThunderStorm.h" />
+    <ClInclude Include="VerticalShot.h" />
+    <ClInclude Include="WhyYouDoThis.h" />
+    <ClInclude Include="TripleEnemyShot.h" />
+    <ClInclude Include="TripleShooter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\Dagger.png" />
+    <Image Include="..\..\..\..\Desktop\Player.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BattleBackground2.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BattleBackground3.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BossBackground1.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BossBackground2.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BossBackground3.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\CircleProjectile.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\Hail.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\Lava.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\Leaf.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\PlayerIcon.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\SlimeShooter.png" />
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\TestBoss.png" />
+    <Image Include="BackGround.png" />
+    <Image Include="BasicEnemy.png" />
+    <Image Include="BattleBackGround.png" />
+    <Image Include="EnergyBall.png" />
+    <Image Include="Gameover.png" />
+    <Image Include="Lightning.png" />
+    <Image Include="Rock.png" />
+    <Image Include="Shield.png" />
+    <Image Include="slimeball.png" />
+    <Image Include="Spike.png" />
+    <Image Include="Spikeball.png" />
+    <Image Include="test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ld40.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Desktop\qualcosa.mp3" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

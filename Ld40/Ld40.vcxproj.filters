@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Direction.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathlyFlower.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="HailStorm.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="LavaRain.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSpell.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSpellPlayer.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTripleShot.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBoss.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEnemy.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Apocolypse.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Slimer.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeShot.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleShot.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="SpikeBall.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleShot.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="MagmaSpray.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="RNGFucker.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Assasin.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="TheDestruction.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="TripleEnemyShot.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="TripleShooter.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomCurves.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="RCurves.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingCurve.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouncer.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="WhyYouDoThis.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalShot.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Dagger.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Arcanist.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireworks.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="TheDestructor.h">
+      <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BigCircle.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomRain.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="ThunderStorm.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="HolyCross.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouncer.h" />
+    <ClInclude Include="Bouncer.h" />
+    <ClInclude Include="PlayerDoubleShot.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouncer.h" />
+    <ClInclude Include="FireWorks2.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Bouncer.h" />
+    <ClInclude Include="Bouncer.h" />
+    <ClInclude Include="Bouncer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ld40.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="BackGround.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="BasicEnemy.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="BattleBackGround.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\CircleProjectile.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\Hail.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\Lava.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\Leaf.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Player.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\PlayerIcon.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Shield.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="test.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\TestBoss.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="slimeball.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Gameover.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Spike.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Spikeball.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BattleBackground2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BattleBackground3.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BossBackground1.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BossBackground2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\BossBackground3.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Pictures\SpritesLD40\SlimeShooter.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\Dagger.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Rock.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Lightning.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="EnergyBall.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f2c7422b-dae2-4c78-8382-d3e5df18fd25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d1ad7cbe-e284-4339-a753-c23c0209d184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{0e5428dd-ab7a-495b-bb8b-6438450b3afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells">
+      <UniqueIdentifier>{972de4bd-ea61-48b2-97b8-a1c590ce1cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{034e6be1-31bb-4410-8578-b457751b15aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{cf812499-1aae-40a7-9cee-9bfd1bb62d60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Desktop\qualcosa.mp3">
+      <Filter>Resources</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
